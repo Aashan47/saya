@@ -27,7 +27,48 @@ the system says so and refuses to advise, rather than guessing.**
 **Why perception is not on an NVIDIA model.** Nemotron Omni is not served on Nebius Token Factory,
 and all four served Nemotrons reject images with `This model does not support image input`. NVIDIA
 serves no vision-capable model on the platform. Measured on 2026-09-23, reproducible with
-`../probes/omni_image_probe.py`. Nemotron does the reasoning, the routing and the abstention.
+`tools/omni_image_probe.py`. Nemotron does the reasoning, the routing and the abstention.
+
+## NVIDIA Nemotron and Nebius Token Factory
+
+Every model call in this project goes to **Nebius Token Factory**, through its OpenAI-compatible API
+at `https://api.tokenfactory.nebius.com/v1`. No GPU was rented and nothing is self-hosted. The client is
+Python standard library with no SDK, in `server/models.py`.
+
+| Role | Model | Where |
+|---|---|---|
+| Routine decision | `nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B` | `server/models.py`, `server/pipeline.py` |
+| Escalated decision | `nvidia/nemotron-3-super-120b-a12b` | same |
+| Search relevance judge | Nemotron 3 Nano | `server/grounding.py` |
+| Perception | `openbmb/MiniCPM-V-4_5` | `server/models.py` |
+| Urdu translation | `google/gemma-3-27b-it` | `server/localize.py` |
+| Urdu round-trip check | `deepseek-ai/DeepSeek-V4-Flash-0731` | `server/localize.py` |
+
+**How Nemotron is used.** Nemotron makes every decision the system takes: advise, or refuse to advise
+and say why. **Nano handles routine readings. Super takes over on conditions set in code**
+(`ESCALATION_TRIGGERS` in `server/pipeline.py`): the heat index is above the range its formula covers,
+the band is danger or extreme danger, the camera can see but reports low confidence, the external
+lookup failed, or Nano asked for a second opinion. The model is never asked how sure it feels.
+Nemotron's separate reasoning field is kept and stored with each decision. Nemotron is used out of
+the box, prompt-engineered, not fine-tuned.
+
+**Where Token Factory accelerated the work.**
+
+- **One endpoint, many models.** Swapping perception models, testing five models on the same Urdu
+  prompt, and moving a decision from Nano to Super were each a one-line model id change, not a new
+  deployment. That is how the comparisons in Known limitations were possible in an afternoon.
+- **`GET /openapi.json`** is live and accurate, which settled questions about parameters in minutes.
+- **Price.** Nemotron Nano made it cheap enough to re-judge the whole archive repeatedly
+  (`tools/process_archive.py`, concurrent completions).
+- **Datasets API.** `tools/process_archive.py` stages the archive on Nebius with `file_to_dataset`.
+  Managed `batch_inference` returned 403 on our hackathon account, so processing runs as concurrent
+  completions instead. That is measured, not assumed.
+
+**Other services.** **Tavily** (`server/grounding.py`) fetches the live IESCO load-shedding schedule
+and any current heat advisory at runtime. Results are filtered for topic and place, judged for
+relevance by Nemotron, and dropped rather than passed on when they do not fit.
+
+Set `NEBIUS_API_KEY` and `TAVILY_API_KEY` in the environment to run the live parts.
 
 ## Three things this deliberately refuses to do
 
@@ -110,7 +151,7 @@ Stated here because they are real, not because a checklist asked for them.
 
 - **The vision model claims it can see when it cannot.** Shown real night frames at a mean brightness
   of 13 to 18 out of 255, `openbmb/MiniCPM-V-4_5` returned `can_see: true` with **high** confidence
-  and described "direct sun" and a "concrete" surface, on 72 of 72 night frames. The abstention, the
+  and described "direct sun" and a "concrete" surface, on every near-black frame it was shown. The abstention, the
   centrepiece of this project, was silently not firing. **Brightness is now measured in code before
   any model call**, and below 25 of 255 the system abstains without asking. The model is still used
   above that floor, where it is reliable.
@@ -133,11 +174,18 @@ Stated here because they are real, not because a checklist asked for them.
 | File | What |
 |---|---|
 | `data/readings.jsonl` | all **3,392 readings** from both sensors, 27 September to 2 October 2026 |
-| `data/images/` | **284 frames**, one per hour per device |
+| `data/images/` | 284 frame files from the same two cameras. **See the note below** |
 | `data/station_opis_metar.csv` | the official station's half-hourly observations for the same period |
-| `data/archive_report.json` | every frame re-judged: the evidence for the 46% abstention rate |
+| `data/archive_report.json` | every frame file re-judged by the current pipeline |
 | `data/DATA-LOCK.json` | SHA-256 of all of the above |
 | `docs/video-transcript.txt`, `docs/video-subtitles.srt` | the demo video's narration |
+
+**About the frames.** The frame files were taken by the same two cameras but **before** the six-day
+run, and were filed against its readings by mistake when the data was copied. They are a handful of
+scenes (day, dawn, dusk and night at each site) repeated across the six days, so they show how the
+system behaves when it can and cannot see, but they are **not** an hourly photographic record of 27
+September to 2 October. The temperature and humidity readings are unaffected. For the same reason,
+the share of frames on which the system declined to advise is not quoted as a measurement.
 
 **The station file had to be recovered.** `aviationweather.gov` serves only about 400 recent
 observations and no longer reaches this period, so without a committed copy nobody could recompute
