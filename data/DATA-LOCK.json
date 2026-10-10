@@ -1,0 +1,15 @@
+{
+  "locked_utc": "2026-10-03T11:33:04.237102Z",
+  "readings_sha256": "ece110be0f7ac094dce41e4dcf712d861807c587844ce704f889084c372df71c",
+  "readings_count": 3392,
+  "devices": {
+    "islamabad-roof-01": 1696,
+    "islamabad-street-01": 1696
+  },
+  "images_count": 284,
+  "images_sha256": "ee4f6137df935a8ee27d8a47b88b5f46430adffa78a1d847e2b44137490a9a63",
+  "accepted": "Passes all structural checks, sensor-independence, and the diurnal brightness check (night frames dark, daylight frames bright). This is the analysed snapshot.",
+  "station_opis_metar_csv_sha256": "4b5a997b12670f1ea213055e1d969b331c1c688a22bdc5ac555c36d72681dc4b",
+  "archive_report_json_sha256": "a6c1c26dd5e8d1b7901a4b5bd26e3b8bb3bfb7604f40414a95488ec1aead9b90",
+  "station_source": "Iowa State University Mesonet ASOS archive, OPIS, retrieved 2026-10-10. aviationweather.gov no longer serves this period."
+}

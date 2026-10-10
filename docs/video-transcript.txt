@@ -1,0 +1,26 @@
+Islamabad IoT heat network: voiceover transcript (final cut, 2:05)
+
+[00:00]  This is a rooftop in Islamabad.
+[00:03]  Every heat warning here is calculated at the airport, twenty-nine kilometres away.
+[00:09]  So I built two, about fifteen dollars each.
+[00:14]  The white shield matters. Bare, the sensor read forty-three degrees. Shielded, thirty-six.
+[00:20]  One on the roof, over concrete.
+[00:23]  This one at street level, on a shaded wall over asphalt.
+[00:29]  Every five minutes, both report to a service on Nebius Token Factory.
+[00:35]  The heat index is calculated with the NOAA formula, in code. Not a model.
+[00:41]  There is a correct answer, and a model would give me a plausible one.
+[00:46]  NVIDIA Nemotron decides what a person should do.
+[00:51]  Most readings stay with Nemotron Nano.
+[00:55]  When the danger is high enough that being wrong hurts somebody, it escalates to Nemotron Super.
+[01:02]  That is decided on conditions, not on asking the model how sure it feels.
+[01:08]  Now watch, when I cover the camera. It stops. It cannot see, so it will not advise.
+[01:16]  I found this the hard way.
+[01:18]  The vision model was looking at night photographs, almost black, and saying it could see.
+[01:24]  Now brightness is checked first, in code.
+[01:27]  The advice comes out in Urdu, because the people this is for do not read English dashboards.
+[01:35]  Tavily checks the load-shedding schedule.
+[01:38]  No power means no fan, and the fan is the only cooling most outdoor workers have.
+[01:46]  Six days. At three in the morning, my sensors and the airport agree.
+[01:50]  By six in the evening, they read seven degrees warmer. Nearly four times in ten,
+[01:56]  the airport would have given a lower risk band.
+[01:59]  The airport is not wrong. It is just not describing this place.

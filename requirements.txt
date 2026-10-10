@@ -1,0 +1,11 @@
+# One dependency, and only one. Everything else in this project is standard library.
+#
+# Pillow is needed to measure the mean brightness of a camera frame. That measurement
+# drives the darkness floor in server/models.py, which is what makes the abstention
+# work: shown real night frames at 13 to 18 brightness out of 255, the vision model
+# returned "I can see, with high confidence" and described direct sunlight. Brightness
+# is therefore checked in code before any model is asked anything.
+#
+# Without Pillow the project still runs and the tests still pass, but the floor is
+# disabled and every decision says so, in the trace and on screen.
+Pillow>=10.0.0

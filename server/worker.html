@@ -1,0 +1,111 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saya</title>
+<style>
+  /* The worker's screen. One instruction, readable at arm's length in sunlight,
+     in Urdu, right to left. This is not the dashboard: a labourer on a site does
+     not read a monitoring panel, and pretending otherwise was the project's biggest
+     design flaw. The dashboard at / is for whoever runs the sensor. */
+  :root{
+    --safe:#1a7f37; --caution:#8a6d00; --xcaution:#9a5518;
+    --danger:#a52a1a; --xdanger:#8b1a2b; --wait:#2b4c7e;
+    --ink:#ffffff;
+  }
+  /* The English line was 14px at opacity .72, which lands at 3.27:1 on the caution
+     band. On a screen read outdoors in sunlight that is not a detail. .95 clears 4.5. */
+  *{box-sizing:border-box}
+  a:focus-visible{outline:2px solid #fff; outline-offset:3px; border-radius:3px}
+  @media (prefers-reduced-motion: reduce){
+    main{transition:none}
+  }
+  /* Sunlight. If the phone reports a bright environment, drop the mid-tones entirely. */
+  @media (prefers-contrast: more){
+    main{background:#000!important}
+    .en{opacity:1}
+  }
+  html,body{height:100%}
+  body{margin:0;background:#111;color:var(--ink);
+       font:16px/1.6 "Noto Nastaliq Urdu","Jameel Noori Nastaleeq",system-ui,sans-serif;
+       display:flex;flex-direction:column;
+       padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+  main{flex:1;display:flex;flex-direction:column;justify-content:center;
+       padding:28px 22px;background:var(--wait);transition:background .4s}
+  main[data-band="safe"]{background:var(--safe)}
+  main[data-band="caution"]{background:var(--caution)}
+  main[data-band="extreme caution"]{background:var(--xcaution)}
+  main[data-band="danger"]{background:var(--danger)}
+  main[data-band="extreme danger"]{background:var(--xdanger)}
+  /* Refusing is not a danger level, so it never borrows a danger colour. */
+  main.abstain{background:#243b5c}
+
+  .band{font-size:clamp(30px,10vw,58px);font-weight:700;text-align:center;
+        direction:rtl;margin:0 0 6px;line-height:1.25}
+  .msg{font-size:clamp(21px,5.6vw,32px);text-align:center;direction:rtl;
+       margin:14px 0 0;line-height:1.85}
+  .temp{font-size:clamp(46px,17vw,96px);font-weight:700;text-align:center;
+        font-variant-numeric:tabular-nums;margin:18px 0 0;
+        font-family:system-ui,sans-serif}
+  .temp small{font-size:.34em;opacity:.8}
+  .en{font-family:system-ui,sans-serif;font-size:15px;text-align:center;
+      opacity:.95;margin-top:22px;direction:ltr;line-height:1.5}
+  footer{padding:14px 20px;background:#000;font-family:system-ui,sans-serif;
+         font-size:13px;opacity:.85;display:flex;justify-content:space-between;
+         gap:12px;flex-wrap:wrap}
+  a{color:inherit;display:inline-block;padding:10px 4px;margin:-10px -4px}
+</style>
+
+<main id="card" role="status" aria-live="polite" lang="ur" dir="rtl">
+  <div class="band" id="band">انتظار</div>
+  <div class="temp" id="temp"></div>
+  <p class="msg" id="msg">ابھی کوئی پیمائش موصول نہیں ہوئی۔</p>
+  <p class="en" id="en" lang="en" dir="ltr"></p>
+</main>
+<footer>
+  <span id="when">.</span>
+  <span><a href="/" lang="en" dir="ltr">operator view</a></span>
+</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+
+function render(state){
+  const a = state.advice;
+  if (!a || a.error){
+    $("card").className = "abstain";
+    $("card").dataset.band = "";
+    $("band").textContent = "دستیاب نہیں";
+    $("msg").textContent = "نظام ابھی جواب نہیں دے رہا۔";
+    $("temp").textContent = "";
+    $("en").textContent = a && a.error ? "System not responding." : "";
+    return;
+  }
+
+  const s = a.sensor || {}, d = a.decision || {}, loc = d.localized || {};
+  const abstained = d.advise === false;
+
+  $("card").className = abstained ? "abstain" : "";
+  $("card").dataset.band = abstained ? "" : (s.band || "");
+  $("band").textContent = abstained ? "مشورہ نہیں" : (loc.band || s.band || "");
+
+  // The measured temperature is shown even while refusing: the sensor reading is
+  // valid, it is the judgement about the scene that is withheld.
+  $("temp").innerHTML = s.temp_c == null ? ""
+    : `${s.temp_c.toFixed(0)}<small>°C</small>`;
+
+  // Urdu is the primary text. English sits underneath, smaller, because the
+  // translation is machine-made and a reader who can check it should be able to.
+  $("msg").textContent = loc.message || "";
+  $("en").textContent = d.message || "";
+
+  const r = a.reading;
+  $("when").textContent = r && r.ts_utc ? r.ts_utc.replace("T", " ").slice(0, 16) + " UTC" : "";
+}
+
+async function tick(){
+  try { render(await (await fetch("/api/state", {cache: "no-store"})).json()); }
+  catch (e) { $("when").textContent = "offline"; }
+}
+tick();
+setInterval(tick, 5000);
+</script>

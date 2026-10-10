@@ -1,0 +1,14 @@
+# The raw data IS the evidence and it is committed deliberately. The writeup claims
+# every number is recomputable from it, and that claim has to be true in the repo a
+# judge clones. archive_report.json ships too: it is the evidence for the abstention
+# rate, which cannot be recomputed without Token Factory credits.
+data/latest_advice.json
+data_live/
+__pycache__/
+*.pyc
+.env
+
+# Holds the home WiFi password. config.example.h is committed instead.
+firmware/saya_node/config.h
+
+.DS_Store

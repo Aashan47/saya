@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:03,680
+This is a rooftop in Islamabad.
+
+2
+00:00:03,680 --> 00:00:09,480
+Every heat warning here is calculated at the airport, twenty-nine kilometres away.
+
+3
+00:00:09,480 --> 00:00:14,100
+So I built two, about fifteen dollars each.
+
+4
+00:00:14,100 --> 00:00:21,720
+The white shield matters. Bare, the sensor read forty-three degrees. Shielded, thirty-six.
+
+5
+00:00:21,720 --> 00:00:24,440
+One on the roof, over concrete.
+
+6
+00:00:24,440 --> 00:00:29,960
+This one at street level, on a shaded wall over asphalt.
+
+7
+00:00:29,960 --> 00:00:36,120
+Every five minutes, both report to a service on Nebius Token Factory.
+
+8
+00:00:36,120 --> 00:00:42,680
+The heat index is calculated with the NOAA formula, in code. Not a model.
+
+9
+00:00:42,680 --> 00:00:49,080
+There is a correct answer, and a model would give me a plausible one.
+
+10
+00:00:49,080 --> 00:00:54,240
+NVIDIA Nemotron decides what a person should do.
+
+11
+00:00:54,240 --> 00:00:57,520
+Most readings stay with Nemotron Nano.
+
+12
+00:00:57,520 --> 00:01:04,440
+When the danger is high enough that being wrong hurts somebody, it escalates to Nemotron Super.
+
+13
+00:01:04,440 --> 00:01:10,960
+That is decided on conditions, not on asking the model how sure it feels.
+
+14
+00:01:10,960 --> 00:01:18,560
+Now watch, when I cover the camera. It stops. It cannot see, so it will not advise.
+
+15
+00:01:18,560 --> 00:01:20,640
+I found this the hard way.
+
+16
+00:01:20,640 --> 00:01:26,840
+The vision model was looking at night photographs, almost black, and saying it could see.
+
+17
+00:01:26,840 --> 00:01:30,280
+Now brightness is checked first, in code.
+
+18
+00:01:30,280 --> 00:01:38,080
+The advice comes out in Urdu, because the people this is for do not read English dashboards.
+
+19
+00:01:38,080 --> 00:01:41,280
+Tavily checks the load-shedding schedule.
+
+20
+00:01:41,280 --> 00:01:48,880
+No power means no fan, and the fan is the only cooling most outdoor workers have.
+
+21
+00:01:48,880 --> 00:01:55,800
+Six days. At three in the morning, my sensors and the airport agree.
+
+22
+00:01:55,800 --> 00:02:01,640
+By six in the evening, they read seven degrees warmer. Nearly four times in ten,
+
+23
+00:02:01,640 --> 00:02:04,640
+the airport would have given a lower risk band.
+
+24
+00:02:04,640 --> 00:02:08,280
+The airport is not wrong. It is just not describing this place.

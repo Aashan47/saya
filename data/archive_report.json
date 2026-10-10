@@ -1,0 +1,3604 @@
+{
+  "report": {
+    "generated_utc": "2026-10-03T11:53:40Z",
+    "abstention_causes": {
+      "could_not_see": 131,
+      "no_frame": 0,
+      "other": 0
+    },
+    "gap_by_local_hour": {
+      "0": {
+        "n": 144,
+        "mean_delta_c": 0.94,
+        "max_delta_c": 4.8
+      },
+      "1": {
+        "n": 144,
+        "mean_delta_c": 0.44,
+        "max_delta_c": 3.9
+      },
+      "2": {
+        "n": 144,
+        "mean_delta_c": 0.52,
+        "max_delta_c": 4.2
+      },
+      "3": {
+        "n": 144,
+        "mean_delta_c": 0.71,
+        "max_delta_c": 4.1
+      },
+      "4": {
+        "n": 144,
+        "mean_delta_c": 1.47,
+        "max_delta_c": 4.9
+      },
+      "5": {
+        "n": 144,
+        "mean_delta_c": 3.39,
+        "max_delta_c": 6.9
+      },
+      "6": {
+        "n": 144,
+        "mean_delta_c": 4.72,
+        "max_delta_c": 7.6
+      },
+      "7": {
+        "n": 144,
+        "mean_delta_c": 4.4,
+        "max_delta_c": 9.0
+      },
+      "8": {
+        "n": 144,
+        "mean_delta_c": 3.78,
+        "max_delta_c": 10.7
+      },
+      "9": {
+        "n": 144,
+        "mean_delta_c": 3.29,
+        "max_delta_c": 11.4
+      },
+      "10": {
+        "n": 144,
+        "mean_delta_c": 3.4,
+        "max_delta_c": 11.3
+      },
+      "11": {
+        "n": 144,
+        "mean_delta_c": 3.48,
+        "max_delta_c": 10.7
+      },
+      "12": {
+        "n": 144,
+        "mean_delta_c": 3.84,
+        "max_delta_c": 9.7
+      },
+      "13": {
+        "n": 144,
+        "mean_delta_c": 3.97,
+        "max_delta_c": 9.6
+      },
+      "14": {
+        "n": 144,
+        "mean_delta_c": 3.54,
+        "max_delta_c": 8.6
+      },
+      "15": {
+        "n": 144,
+        "mean_delta_c": 3.41,
+        "max_delta_c": 8.0
+      },
+      "16": {
+        "n": 120,
+        "mean_delta_c": 4.0,
+        "max_delta_c": 7.6
+      },
+      "17": {
+        "n": 120,
+        "mean_delta_c": 5.22,
+        "max_delta_c": 11.0
+      },
+      "18": {
+        "n": 128,
+        "mean_delta_c": 6.97,
+        "max_delta_c": 10.7
+      },
+      "19": {
+        "n": 144,
+        "mean_delta_c": 6.87,
+        "max_delta_c": 10.4
+      },
+      "20": {
+        "n": 144,
+        "mean_delta_c": 5.91,
+        "max_delta_c": 9.7
+      },
+      "21": {
+        "n": 144,
+        "mean_delta_c": 4.45,
+        "max_delta_c": 9.1
+      },
+      "22": {
+        "n": 144,
+        "mean_delta_c": 3.01,
+        "max_delta_c": 7.8
+      },
+      "23": {
+        "n": 144,
+        "mean_delta_c": 1.99,
+        "max_delta_c": 6.3
+      }
+    },
+    "working_hours": {
+      "working_hours": "09:00 to 17:59 local",
+      "n_working": 1248,
+      "mean_delta_working_c": 3.76,
+      "n_other": 2144,
+      "mean_delta_other_c": 3.28,
+      "day_night_difference_c": 0.48
+    },
+    "band_disagreements_by_hour": {
+      "0": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "1": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "2": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "3": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "4": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "5": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "6": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "7": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "8": {
+        "n": 144,
+        "disagreed": 72,
+        "device_worse": 69,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T03:15:03.457937Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T03:25:07.976333Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "9": {
+        "n": 144,
+        "disagreed": 78,
+        "device_worse": 78,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T04:00:09.502883Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T04:00:05.123897Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "10": {
+        "n": 144,
+        "disagreed": 48,
+        "device_worse": 48,
+        "examples": [
+          {
+            "ts_utc": "2026-09-28T05:00:03.986060Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-28T05:00:12.142924Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "11": {
+        "n": 144,
+        "disagreed": 73,
+        "device_worse": 69,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T06:10:03.997400Z",
+            "station": "caution",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-27T06:15:14.025082Z",
+            "station": "caution",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "12": {
+        "n": 144,
+        "disagreed": 107,
+        "device_worse": 104,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T07:00:14.194421Z",
+            "station": "extreme caution",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T07:05:08.827492Z",
+            "station": "extreme caution",
+            "device": "caution"
+          }
+        ]
+      },
+      "13": {
+        "n": 144,
+        "disagreed": 113,
+        "device_worse": 113,
+        "examples": [
+          {
+            "ts_utc": "2026-09-28T08:00:04.529358Z",
+            "station": "safe",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-28T08:00:11.150966Z",
+            "station": "safe",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "14": {
+        "n": 144,
+        "disagreed": 78,
+        "device_worse": 78,
+        "examples": [
+          {
+            "ts_utc": "2026-09-28T09:00:04.936866Z",
+            "station": "safe",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-28T09:00:06.136728Z",
+            "station": "safe",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "15": {
+        "n": 144,
+        "disagreed": 66,
+        "device_worse": 66,
+        "examples": [
+          {
+            "ts_utc": "2026-09-28T10:00:09.847823Z",
+            "station": "caution",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-28T10:00:14.253387Z",
+            "station": "caution",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "16": {
+        "n": 120,
+        "disagreed": 78,
+        "device_worse": 78,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T11:45:04.622179Z",
+            "station": "caution",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-27T11:45:04.625454Z",
+            "station": "caution",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "17": {
+        "n": 120,
+        "disagreed": 102,
+        "device_worse": 102,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T12:00:04.624348Z",
+            "station": "caution",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-27T12:05:06.609172Z",
+            "station": "caution",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "18": {
+        "n": 128,
+        "disagreed": 123,
+        "device_worse": 123,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T13:00:05.896797Z",
+            "station": "safe",
+            "device": "extreme caution"
+          },
+          {
+            "ts_utc": "2026-09-27T13:00:09.477784Z",
+            "station": "safe",
+            "device": "extreme caution"
+          }
+        ]
+      },
+      "19": {
+        "n": 144,
+        "disagreed": 144,
+        "device_worse": 144,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T14:00:12.790316Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T14:00:10.768660Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "20": {
+        "n": 144,
+        "disagreed": 144,
+        "device_worse": 144,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T15:00:12.494044Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T15:00:10.877944Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "21": {
+        "n": 144,
+        "disagreed": 70,
+        "device_worse": 70,
+        "examples": [
+          {
+            "ts_utc": "2026-09-27T16:00:04.603452Z",
+            "station": "safe",
+            "device": "caution"
+          },
+          {
+            "ts_utc": "2026-09-27T16:00:07.726929Z",
+            "station": "safe",
+            "device": "caution"
+          }
+        ]
+      },
+      "22": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      },
+      "23": {
+        "n": 144,
+        "disagreed": 0,
+        "device_worse": 0,
+        "examples": []
+      }
+    },
+    "readings_processed": 284,
+    "seconds": 403.2,
+    "readings_per_minute": 42.3,
+    "failures": 0,
+    "advised": 153,
+    "abstained": 131,
+    "abstention_rate": 0.461,
+    "escalated_to_super": 11,
+    "bands": {
+      "caution": 79,
+      "extreme caution": 71,
+      "safe": 134
+    },
+    "device_vs_station": {
+      "n": 3392,
+      "unmatched": 0,
+      "mean_delta_c": 3.46,
+      "max_delta_c": 11.4,
+      "device_warmer_count": 3051,
+      "device_cooler_count": 306,
+      "band_disagreements": 1296,
+      "band_comparisons": 3392,
+      "station_temp_resolution_c": 1.0,
+      "differences_within_station_resolution": 460,
+      "comparator": {
+        "station": "OPIS",
+        "name": "Islamabad/Gandhara Intl, IS, PK",
+        "distance_km": 28.8,
+        "station_elevation_m": 542,
+        "elevation_note": "Station elevation is absolute, not a difference from the device. Compute the actual gap before attributing anything to altitude.",
+        "caveat": "Distance is 28.8 km, so surroundings differ. Altitude does not: the two sites are within tens of metres. Report the real elevation gap, not the station's absolute height."
+      },
+      "caveats": [
+        "The station reports whole degrees Celsius, so any difference smaller than 1.0 C is inside its own resolution and is not evidence.",
+        "Station humidity is derived from dewpoint, not measured directly.",
+        "Distance and elevation account for part of any difference. See comparator."
+      ]
+    }
+  },
+  "per_reading": [
+    {
+      "id": "20260927T000009204262Z-islamabad-roof-01-0000",
+      "ts_utc": "2026-09-27T00:00:09.204262Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and shelter that are visible, and drink water regularly to stay cool. The current conditions are low risk."
+    },
+    {
+      "id": "20260927T000009963291Z-islamabad-street-01-0000",
+      "ts_utc": "2026-09-27T00:00:09.963291Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, stay in the shade and use the shelter to keep cool."
+    },
+    {
+      "id": "20260927T010011844579Z-islamabad-roof-01-0012",
+      "ts_utc": "2026-09-27T01:00:11.844579Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You should use the shade and drink water often. The current conditions are safe."
+    },
+    {
+      "id": "20260927T010012579499Z-islamabad-street-01-0012",
+      "ts_utc": "2026-09-27T01:00:12.579499Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and shelter to stay out of direct sun and take regular breaks. Keep hydrated and rest when possible."
+    },
+    {
+      "id": "20260927T020002394117Z-islamabad-roof-01-0024",
+      "ts_utc": "2026-09-27T02:00:02.394117Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat is safe; use the shade, shelter and water you can see to stay cool."
+    },
+    {
+      "id": "20260927T020015138811Z-islamabad-street-01-0024",
+      "ts_utc": "2026-09-27T02:00:15.138811Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and shelter to take regular breaks. If you need water, look for it nearby."
+    },
+    {
+      "id": "20260927T030002561775Z-islamabad-roof-01-0036",
+      "ts_utc": "2026-09-27T03:00:02.561775Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and drink water regularly. The heat index is low, but direct sun can still be taxing."
+    },
+    {
+      "id": "20260927T030012495169Z-islamabad-street-01-0036",
+      "ts_utc": "2026-09-27T03:00:12.495169Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on concrete, but shade and shelter are available. Use the shade and stay hydrated when possible."
+    },
+    {
+      "id": "20260927T040005123897Z-islamabad-street-01-0048",
+      "ts_utc": "2026-09-27T04:00:05.123897Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often. If you feel fatigued, stop work and rest."
+    },
+    {
+      "id": "20260927T040009502883Z-islamabad-roof-01-0048",
+      "ts_utc": "2026-09-27T04:00:09.502883Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a caution zone; prolonged work may cause fatigue. Use the available shade, shelter and water to stay cool and rest if needed."
+    },
+    {
+      "id": "20260927T050007890452Z-islamabad-street-01-0060",
+      "ts_utc": "2026-09-27T05:00:07.890452Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water frequently. Limit intense activity during the hottest part of the day."
+    },
+    {
+      "id": "20260927T050015820705Z-islamabad-roof-01-0060",
+      "ts_utc": "2026-09-27T05:00:15.820705Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often. If you feel fatigued, stop work and rest."
+    },
+    {
+      "id": "20260927T060007479724Z-islamabad-roof-01-0072",
+      "ts_utc": "2026-09-27T06:00:07.479724Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and drink water often. Limit heavy work to cooler parts of the day."
+    },
+    {
+      "id": "20260927T060010035954Z-islamabad-street-01-0072",
+      "ts_utc": "2026-09-27T06:00:10.035954Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Limit continuous work under direct sun."
+    },
+    {
+      "id": "20260927T070014194421Z-islamabad-street-01-0084",
+      "ts_utc": "2026-09-27T07:00:14.194421Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on concrete; seek the available shade or shelter now and drink water regularly to avoid fatigue. Rest and hydrate to reduce the risk of fatigue."
+    },
+    {
+      "id": "20260927T070015350430Z-islamabad-roof-01-0084",
+      "ts_utc": "2026-09-27T07:00:15.350430Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; seek shade, stay hydrated, and limit exertion. Use the available shelter and water to reduce heat stress."
+    },
+    {
+      "id": "20260927T080003502087Z-islamabad-street-01-0096",
+      "ts_utc": "2026-09-27T08:00:03.502087Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are working in direct sun on hot concrete; use the available shade or shelter and drink water regularly. Heat cramps and exhaustion are possible, so take frequent breaks."
+    },
+    {
+      "id": "20260927T080015579722Z-islamabad-roof-01-0096",
+      "ts_utc": "2026-09-27T08:00:15.579722Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Find shade, drink water, and rest frequently."
+    },
+    {
+      "id": "20260927T090009343083Z-islamabad-street-01-0108",
+      "ts_utc": "2026-09-27T09:00:09.343083Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete; seek the available shade and shelter and drink water regularly to reduce the risk of heat cramps and exhaustion."
+    },
+    {
+      "id": "20260927T090013335565Z-islamabad-roof-01-0108",
+      "ts_utc": "2026-09-27T09:00:13.335565Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade, stay hydrated, and take regular breaks."
+    },
+    {
+      "id": "20260927T100002997883Z-islamabad-roof-01-0120",
+      "ts_utc": "2026-09-27T10:00:02.997883Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and drink water regularly. If you feel dizzy or nauseous, stop work and rest."
+    },
+    {
+      "id": "20260927T100013567279Z-islamabad-street-01-0120",
+      "ts_utc": "2026-09-27T10:00:13.567279Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find the available shade or shelter and drink water regularly. The heat index is 33\u202f\u00b0C, which can cause heat cramps and exhaustion."
+    },
+    {
+      "id": "20260927T110012698915Z-islamabad-roof-01-0132",
+      "ts_utc": "2026-09-27T11:00:12.698915Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Find shade, drink water, and take regular breaks."
+    },
+    {
+      "id": "20260927T110013366389Z-islamabad-street-01-0132",
+      "ts_utc": "2026-09-27T11:00:13.366389Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; seek shade or shelter now. If you can find water, drink it regularly."
+    },
+    {
+      "id": "20260927T120004624348Z-islamabad-roof-01-0144",
+      "ts_utc": "2026-09-27T12:00:04.624348Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade or shelter now and drink water regularly."
+    },
+    {
+      "id": "20260927T120014336795Z-islamabad-street-01-0144",
+      "ts_utc": "2026-09-27T12:00:14.336795Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260927T130005896797Z-islamabad-roof-01-0156",
+      "ts_utc": "2026-09-27T13:00:05.896797Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; use the available shade and shelter to stay cool. If possible, drink water to reduce the risk of heat cramps."
+    },
+    {
+      "id": "20260927T130009477784Z-islamabad-street-01-0156",
+      "ts_utc": "2026-09-27T13:00:09.477784Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T140010768660Z-islamabad-street-01-0168",
+      "ts_utc": "2026-09-27T14:00:10.768660Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the site, so I cannot provide specific advice."
+    },
+    {
+      "id": "20260927T140012790316Z-islamabad-roof-01-0168",
+      "ts_utc": "2026-09-27T14:00:12.790316Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T150010877944Z-islamabad-street-01-0180",
+      "ts_utc": "2026-09-27T15:00:10.877944Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260927T150012494044Z-islamabad-roof-01-0180",
+      "ts_utc": "2026-09-27T15:00:12.494044Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T160004603452Z-islamabad-roof-01-0192",
+      "ts_utc": "2026-09-27T16:00:04.603452Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T160007726929Z-islamabad-street-01-0192",
+      "ts_utc": "2026-09-27T16:00:07.726929Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260927T170005797366Z-islamabad-roof-01-0204",
+      "ts_utc": "2026-09-27T17:00:05.797366Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice. Please ensure you have adequate shade and water while working."
+    },
+    {
+      "id": "20260927T170010499099Z-islamabad-street-01-0204",
+      "ts_utc": "2026-09-27T17:00:10.499099Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T180005846859Z-islamabad-roof-01-0216",
+      "ts_utc": "2026-09-27T18:00:05.846859Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T180008554048Z-islamabad-street-01-0216",
+      "ts_utc": "2026-09-27T18:00:08.554048Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T190002862582Z-islamabad-street-01-0228",
+      "ts_utc": "2026-09-27T19:00:02.862582Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": ""
+    },
+    {
+      "id": "20260927T190009758855Z-islamabad-roof-01-0228",
+      "ts_utc": "2026-09-27T19:00:09.758855Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T200007114377Z-islamabad-roof-01-0240",
+      "ts_utc": "2026-09-27T20:00:07.114377Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T200015443149Z-islamabad-street-01-0240",
+      "ts_utc": "2026-09-27T20:00:15.443149Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T210002197268Z-islamabad-roof-01-0252",
+      "ts_utc": "2026-09-27T21:00:02.197268Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T210013255073Z-islamabad-street-01-0252",
+      "ts_utc": "2026-09-27T21:00:13.255073Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T220003999897Z-islamabad-roof-01-0264",
+      "ts_utc": "2026-09-27T22:00:03.999897Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T220015262940Z-islamabad-street-01-0264",
+      "ts_utc": "2026-09-27T22:00:15.262940Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260927T230012797882Z-islamabad-roof-01-0276",
+      "ts_utc": "2026-09-27T23:00:12.797882Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location due to darkness, so I cannot give advice."
+    },
+    {
+      "id": "20260927T230013223679Z-islamabad-street-01-0276",
+      "ts_utc": "2026-09-27T23:00:13.223679Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T000002627359Z-islamabad-street-01-0288",
+      "ts_utc": "2026-09-28T00:00:02.627359Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is low and you are in shade with shelter nearby, so conditions are safe. Keep using the shade and bring water if you can."
+    },
+    {
+      "id": "20260928T000009575854Z-islamabad-roof-01-0288",
+      "ts_utc": "2026-09-28T00:00:09.575854Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 22\u202f\u00b0C, which is in the safe range. Use the available shade and drink water regularly."
+    },
+    {
+      "id": "20260928T010003990075Z-islamabad-street-01-0300",
+      "ts_utc": "2026-09-28T01:00:03.990075Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a safe heat condition; use the available shade and rest if needed. Stay hydrated if water becomes available."
+    },
+    {
+      "id": "20260928T010006186639Z-islamabad-roof-01-0300",
+      "ts_utc": "2026-09-28T01:00:06.186639Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is low and conditions are safe. Use the available shade and drink water regularly."
+    },
+    {
+      "id": "20260928T020002168760Z-islamabad-street-01-0312",
+      "ts_utc": "2026-09-28T02:00:02.168760Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade and use the shelter that are present. If you feel warm, pause and rest there."
+    },
+    {
+      "id": "20260928T020014032421Z-islamabad-roof-01-0312",
+      "ts_utc": "2026-09-28T02:00:14.032421Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade and drink water to keep cool; if you start to feel hot, move to the shelter."
+    },
+    {
+      "id": "20260928T030006129029Z-islamabad-roof-01-0324",
+      "ts_utc": "2026-09-28T03:00:06.129029Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade and drink water regularly; conditions are currently safe but keep monitoring how you feel. If you start to feel unwell, stop work and seek shelter."
+    },
+    {
+      "id": "20260928T030007802863Z-islamabad-street-01-0324",
+      "ts_utc": "2026-09-28T03:00:07.802863Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and shelter to stay cool. If you have water, drink it regularly."
+    },
+    {
+      "id": "20260928T040005927519Z-islamabad-roof-01-0336",
+      "ts_utc": "2026-09-28T04:00:05.927519Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often. Fatigue can set in with prolonged exposure."
+    },
+    {
+      "id": "20260928T040006569750Z-islamabad-street-01-0336",
+      "ts_utc": "2026-09-28T04:00:06.569750Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and limit continuous work. Stay hydrated and seek shelter when possible."
+    },
+    {
+      "id": "20260928T050003986060Z-islamabad-roof-01-0348",
+      "ts_utc": "2026-09-28T05:00:03.986060Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Limit strenuous activity during peak heat."
+    },
+    {
+      "id": "20260928T050012142924Z-islamabad-street-01-0348",
+      "ts_utc": "2026-09-28T05:00:12.142924Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The area has shade and shelter, but the heat index is in the caution band, so fatigue may develop with prolonged work. Take regular breaks and drink water when possible."
+    },
+    {
+      "id": "20260928T060003270757Z-islamabad-roof-01-0360",
+      "ts_utc": "2026-09-28T06:00:03.270757Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; find shade, stay hydrated, and reduce activity. If you feel dizzy, stop work and rest."
+    },
+    {
+      "id": "20260928T060008150550Z-islamabad-street-01-0360",
+      "ts_utc": "2026-09-28T06:00:08.150550Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Limit strenuous activity during the hottest part of the day."
+    },
+    {
+      "id": "20260928T070002359532Z-islamabad-roof-01-0372",
+      "ts_utc": "2026-09-28T07:00:02.359532Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You have shade, shelter and water nearby. Use them and drink water often to lower your risk of heat cramps and exhaustion."
+    },
+    {
+      "id": "20260928T070014858785Z-islamabad-street-01-0372",
+      "ts_utc": "2026-09-28T07:00:14.858785Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 31.6\u202f\u00b0C, which can cause fatigue with prolonged work. Use the available shade or shelter and drink water regularly."
+    },
+    {
+      "id": "20260928T080004529358Z-islamabad-roof-01-0384",
+      "ts_utc": "2026-09-28T08:00:04.529358Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete with shade, shelter and water nearby; seek shade, stay hydrated and take frequent breaks. Watch for signs of heat cramps or exhaustion."
+    },
+    {
+      "id": "20260928T080011150966Z-islamabad-street-01-0384",
+      "ts_utc": "2026-09-28T08:00:11.150966Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water if you have it. The heat index is in the extreme caution range, so watch for heat cramps and exhaustion."
+    },
+    {
+      "id": "20260928T090004936866Z-islamabad-roof-01-0396",
+      "ts_utc": "2026-09-28T09:00:04.936866Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Heat cramps and heat exhaustion are possible."
+    },
+    {
+      "id": "20260928T090006136728Z-islamabad-street-01-0396",
+      "ts_utc": "2026-09-28T09:00:06.136728Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the extreme-caution range, so heat cramps and exhaustion are possible. Use the shade and shelter you can see and drink water frequently."
+    },
+    {
+      "id": "20260928T100009847823Z-islamabad-roof-01-0408",
+      "ts_utc": "2026-09-28T10:00:09.847823Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Stop work and seek help if you feel heat cramps or exhaustion."
+    },
+    {
+      "id": "20260928T100014253387Z-islamabad-street-01-0408",
+      "ts_utc": "2026-09-28T10:00:14.253387Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun with high heat; use the available shade and shelter and take frequent breaks. If possible, find water and stay hydrated."
+    },
+    {
+      "id": "20260928T110001746233Z-islamabad-street-01-0420",
+      "ts_utc": "2026-09-28T11:00:01.746233Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and use the available shelter. Stay hydrated and watch for heat cramps or exhaustion."
+    },
+    {
+      "id": "20260928T110012224910Z-islamabad-roof-01-0420",
+      "ts_utc": "2026-09-28T11:00:12.224910Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; find shade and drink water regularly. Stay hydrated and rest in shade when possible."
+    },
+    {
+      "id": "20260928T120005481535Z-islamabad-roof-01-0432",
+      "ts_utc": "2026-09-28T12:00:05.481535Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is high and can cause cramps or exhaustion. Use the shade and shelter that are visible to rest and drink water if you have it."
+    },
+    {
+      "id": "20260928T120014600133Z-islamabad-street-01-0432",
+      "ts_utc": "2026-09-28T12:00:14.600133Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T130006799815Z-islamabad-street-01-0444",
+      "ts_utc": "2026-09-28T13:00:06.799815Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T130015571591Z-islamabad-roof-01-0444",
+      "ts_utc": "2026-09-28T13:00:15.571591Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and shelter, and stay hydrated to reduce the risk of heat cramps or exhaustion. Watch for early signs of heat stress and take breaks as needed."
+    },
+    {
+      "id": "20260928T140004872424Z-islamabad-street-01-0456",
+      "ts_utc": "2026-09-28T14:00:04.872424Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T140007953906Z-islamabad-roof-01-0456",
+      "ts_utc": "2026-09-28T14:00:07.953906Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T150003147292Z-islamabad-roof-01-0468",
+      "ts_utc": "2026-09-28T15:00:03.147292Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T150014144133Z-islamabad-street-01-0468",
+      "ts_utc": "2026-09-28T15:00:14.144133Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260928T160001814165Z-islamabad-street-01-0480",
+      "ts_utc": "2026-09-28T16:00:01.814165Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T160014225597Z-islamabad-roof-01-0480",
+      "ts_utc": "2026-09-28T16:00:14.225597Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T170006672275Z-islamabad-roof-01-0492",
+      "ts_utc": "2026-09-28T17:00:06.672275Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T170015617058Z-islamabad-street-01-0492",
+      "ts_utc": "2026-09-28T17:00:15.617058Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T180011192293Z-islamabad-roof-01-0504",
+      "ts_utc": "2026-09-28T18:00:11.192293Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260928T180015753968Z-islamabad-street-01-0504",
+      "ts_utc": "2026-09-28T18:00:15.753968Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T190003667951Z-islamabad-roof-01-0516",
+      "ts_utc": "2026-09-28T19:00:03.667951Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T190010736754Z-islamabad-street-01-0516",
+      "ts_utc": "2026-09-28T19:00:10.736754Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T200008863435Z-islamabad-street-01-0528",
+      "ts_utc": "2026-09-28T20:00:08.863435Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T200013520522Z-islamabad-roof-01-0528",
+      "ts_utc": "2026-09-28T20:00:13.520522Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T210002129745Z-islamabad-roof-01-0540",
+      "ts_utc": "2026-09-28T21:00:02.129745Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T210014410857Z-islamabad-street-01-0540",
+      "ts_utc": "2026-09-28T21:00:14.410857Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T220001414459Z-islamabad-street-01-0552",
+      "ts_utc": "2026-09-28T22:00:01.414459Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T220010406517Z-islamabad-roof-01-0552",
+      "ts_utc": "2026-09-28T22:00:10.406517Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T230013844414Z-islamabad-street-01-0564",
+      "ts_utc": "2026-09-28T23:00:13.844414Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260928T230014258024Z-islamabad-roof-01-0564",
+      "ts_utc": "2026-09-28T23:00:14.258024Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T000010348848Z-islamabad-street-01-0576",
+      "ts_utc": "2026-09-29T00:00:10.348848Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and shelter to stay out of the sun. Bring your own water and drink regularly."
+    },
+    {
+      "id": "20260929T000012599587Z-islamabad-roof-01-0576",
+      "ts_utc": "2026-09-29T00:00:12.599587Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the available shade and drink water as needed. Conditions are currently safe."
+    },
+    {
+      "id": "20260929T010011037517Z-islamabad-roof-01-0588",
+      "ts_utc": "2026-09-29T01:00:11.037517Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the safe range, so you can work, but use the shade, shelter and water that are visible to stay cool."
+    },
+    {
+      "id": "20260929T010012096215Z-islamabad-street-01-0588",
+      "ts_utc": "2026-09-29T01:00:12.096215Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade or shelter to stay cool. Keep hydrated if you have water and take regular breaks."
+    },
+    {
+      "id": "20260929T020007796611Z-islamabad-street-01-0600",
+      "ts_utc": "2026-09-29T02:00:07.796611Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can take advantage of the nearby shade and shelter to rest and avoid prolonged sun exposure. Stay hydrated and limit continuous work in the direct sun."
+    },
+    {
+      "id": "20260929T020010880704Z-islamabad-roof-01-0600",
+      "ts_utc": "2026-09-29T02:00:10.880704Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Drink water regularly and rest in the shade when possible; you have both available. The current heat index is in the safe range."
+    },
+    {
+      "id": "20260929T030011760508Z-islamabad-street-01-0612",
+      "ts_utc": "2026-09-29T03:00:11.760508Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a safe heat condition; use the available shade and drink water when possible. Stay hydrated and rest in the shade when you can."
+    },
+    {
+      "id": "20260929T030014715425Z-islamabad-roof-01-0612",
+      "ts_utc": "2026-09-29T03:00:14.715425Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a safe heat condition. Use the available shade, stay under shelter, and drink water regularly."
+    },
+    {
+      "id": "20260929T040005629716Z-islamabad-roof-01-0624",
+      "ts_utc": "2026-09-29T04:00:05.629716Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often; the heat index is in the caution range, so fatigue can set in with prolonged work. If you feel overly tired, stop and rest."
+    },
+    {
+      "id": "20260929T040015815221Z-islamabad-street-01-0624",
+      "ts_utc": "2026-09-29T04:00:15.815221Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated; prolonged exposure may cause fatigue. If you feel overly tired, stop work and rest."
+    },
+    {
+      "id": "20260929T050007425326Z-islamabad-roof-01-0636",
+      "ts_utc": "2026-09-29T05:00:07.425326Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on concrete; take regular breaks in the shade and drink water often. Fatigue can set in, so monitor how you feel."
+    },
+    {
+      "id": "20260929T050010021218Z-islamabad-street-01-0636",
+      "ts_utc": "2026-09-29T05:00:10.021218Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade. Drink water frequently to reduce fatigue."
+    },
+    {
+      "id": "20260929T060006602477Z-islamabad-street-01-0648",
+      "ts_utc": "2026-09-29T06:00:06.602477Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a shaded area with shelter nearby, but the heat index is in the caution range (about 31\u202f\u00b0C). Take regular breaks, stay hydrated, and use the shade to avoid fatigue."
+    },
+    {
+      "id": "20260929T060013177176Z-islamabad-roof-01-0648",
+      "ts_utc": "2026-09-29T06:00:13.177176Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on concrete. Use the available shade and drink water regularly, taking frequent breaks to avoid fatigue."
+    },
+    {
+      "id": "20260929T070005981195Z-islamabad-roof-01-0660",
+      "ts_utc": "2026-09-29T07:00:05.981195Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Watch for signs of heat cramps or exhaustion."
+    },
+    {
+      "id": "20260929T070009926796Z-islamabad-street-01-0660",
+      "ts_utc": "2026-09-29T07:00:09.926796Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and rest often. Keep hydrated and limit continuous work."
+    },
+    {
+      "id": "20260929T080006091331Z-islamabad-street-01-0672",
+      "ts_utc": "2026-09-29T08:00:06.091331Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution with a heat index of 32.7\u00b0C. Take frequent breaks in the shade and stay hydrated."
+    },
+    {
+      "id": "20260929T080008823563Z-islamabad-roof-01-0672",
+      "ts_utc": "2026-09-29T08:00:08.823563Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Limit your time in direct sun."
+    },
+    {
+      "id": "20260929T090005792808Z-islamabad-street-01-0684",
+      "ts_utc": "2026-09-29T09:00:05.792808Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and shelter that are visible to reduce exposure. If you feel symptoms such as cramps or exhaustion, stop work and seek cooler relief."
+    },
+    {
+      "id": "20260929T090013371627Z-islamabad-roof-01-0684",
+      "ts_utc": "2026-09-29T09:00:13.371627Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; find shade, use the shelter and drink water regularly to prevent heat cramps or exhaustion."
+    },
+    {
+      "id": "20260929T100002152481Z-islamabad-roof-01-0696",
+      "ts_utc": "2026-09-29T10:00:02.152481Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the extreme caution range, so heat cramps and exhaustion are possible. Use the available shade and drink water regularly while you work."
+    },
+    {
+      "id": "20260929T100004009905Z-islamabad-street-01-0696",
+      "ts_utc": "2026-09-29T10:00:04.009905Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and stay hydrated. Limit continuous work under the direct sun."
+    },
+    {
+      "id": "20260929T110002866283Z-islamabad-street-01-0708",
+      "ts_utc": "2026-09-29T11:00:02.866283Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade or shelter right now and keep activity minimal. If you feel dizzy or nauseous, stop work and get medical help."
+    },
+    {
+      "id": "20260929T110005605394Z-islamabad-roof-01-0708",
+      "ts_utc": "2026-09-29T11:00:05.605394Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade, use the shelter and drink water often."
+    },
+    {
+      "id": "20260929T120004456379Z-islamabad-street-01-0720",
+      "ts_utc": "2026-09-29T12:00:04.456379Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T120014548692Z-islamabad-roof-01-0720",
+      "ts_utc": "2026-09-29T12:00:14.548692Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; seek shade or shelter now. If you can find water, drink it."
+    },
+    {
+      "id": "20260929T130001542849Z-islamabad-roof-01-0732",
+      "ts_utc": "2026-09-29T13:00:01.542849Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in an extreme-caution situation; heat index is 32.4\u00b0C, so heat cramps and exhaustion are possible. Use the shade and shelter that are present and keep water with you."
+    },
+    {
+      "id": "20260929T130013008404Z-islamabad-street-01-0732",
+      "ts_utc": "2026-09-29T13:00:13.008404Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T140003750060Z-islamabad-street-01-0744",
+      "ts_utc": "2026-09-29T14:00:03.750060Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260929T140007268853Z-islamabad-roof-01-0744",
+      "ts_utc": "2026-09-29T14:00:07.268853Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T150004229762Z-islamabad-street-01-0756",
+      "ts_utc": "2026-09-29T15:00:04.229762Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T150007138468Z-islamabad-roof-01-0756",
+      "ts_utc": "2026-09-29T15:00:07.138468Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260929T160001101555Z-islamabad-street-01-0768",
+      "ts_utc": "2026-09-29T16:00:01.101555Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260929T160013900433Z-islamabad-roof-01-0768",
+      "ts_utc": "2026-09-29T16:00:13.900433Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T170001407464Z-islamabad-street-01-0780",
+      "ts_utc": "2026-09-29T17:00:01.407464Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T170014867134Z-islamabad-roof-01-0780",
+      "ts_utc": "2026-09-29T17:00:14.867134Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T180003915351Z-islamabad-roof-01-0792",
+      "ts_utc": "2026-09-29T18:00:03.915351Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260929T180010004717Z-islamabad-street-01-0792",
+      "ts_utc": "2026-09-29T18:00:10.004717Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T190001981600Z-islamabad-street-01-0804",
+      "ts_utc": "2026-09-29T19:00:01.981600Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T190011136486Z-islamabad-roof-01-0804",
+      "ts_utc": "2026-09-29T19:00:11.136486Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T200010106980Z-islamabad-street-01-0816",
+      "ts_utc": "2026-09-29T20:00:10.106980Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T200013913681Z-islamabad-roof-01-0816",
+      "ts_utc": "2026-09-29T20:00:13.913681Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot advise."
+    },
+    {
+      "id": "20260929T210003937081Z-islamabad-street-01-0828",
+      "ts_utc": "2026-09-29T21:00:03.937081Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T210007183658Z-islamabad-roof-01-0828",
+      "ts_utc": "2026-09-29T21:00:07.183658Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T220008531364Z-islamabad-street-01-0840",
+      "ts_utc": "2026-09-29T22:00:08.531364Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T220015108579Z-islamabad-roof-01-0840",
+      "ts_utc": "2026-09-29T22:00:15.108579Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot advise."
+    },
+    {
+      "id": "20260929T230011331279Z-islamabad-street-01-0852",
+      "ts_utc": "2026-09-29T23:00:11.331279Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260929T230011817653Z-islamabad-roof-01-0852",
+      "ts_utc": "2026-09-29T23:00:11.817653Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260930T000006541400Z-islamabad-roof-01-0864",
+      "ts_utc": "2026-09-30T00:00:06.541400Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can use the available shade and shelter, and drink water often to stay hydrated. Your risk is low right now."
+    },
+    {
+      "id": "20260930T000012180456Z-islamabad-street-01-0864",
+      "ts_utc": "2026-09-30T00:00:12.180456Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a shaded, sheltered spot with overcast skies. The heat index is in the safe range, so no extra precautions are needed."
+    },
+    {
+      "id": "20260930T010008367968Z-islamabad-roof-01-0876",
+      "ts_utc": "2026-09-30T01:00:08.367968Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a safe heat condition. Use the available shade and water to stay cool."
+    },
+    {
+      "id": "20260930T010013502566Z-islamabad-street-01-0876",
+      "ts_utc": "2026-09-30T01:00:13.502566Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The conditions are safe, but use the shade and shelter that are visible. Stay hydrated and monitor how you feel."
+    },
+    {
+      "id": "20260930T020003698239Z-islamabad-street-01-0888",
+      "ts_utc": "2026-09-30T02:00:03.698239Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is safe, so you can continue working, but use the available shade and shelter to stay cool. Keep an eye on any sudden changes in temperature."
+    },
+    {
+      "id": "20260930T020014305473Z-islamabad-roof-01-0888",
+      "ts_utc": "2026-09-30T02:00:14.305473Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and drink water frequently. The heat index is low, so risk is minimal."
+    },
+    {
+      "id": "20260930T030002649138Z-islamabad-street-01-0900",
+      "ts_utc": "2026-09-30T03:00:02.649138Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You should take regular breaks in the shade and stay hydrated. The heat index is low, but the direct sun and hot concrete can still raise your risk."
+    },
+    {
+      "id": "20260930T030014464556Z-islamabad-roof-01-0900",
+      "ts_utc": "2026-09-30T03:00:14.464556Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade and drink water regularly. The heat index is in the safe range, but keep an eye on the sun."
+    },
+    {
+      "id": "20260930T040002487600Z-islamabad-roof-01-0912",
+      "ts_utc": "2026-09-30T04:00:02.487600Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 28.5\u202f\u00b0C, which can cause fatigue with prolonged work. Use the available shade and water, and take regular breaks."
+    },
+    {
+      "id": "20260930T040003207237Z-islamabad-street-01-0912",
+      "ts_utc": "2026-09-30T04:00:03.207237Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Prolonged exposure may cause fatigue."
+    },
+    {
+      "id": "20260930T050003288775Z-islamabad-roof-01-0924",
+      "ts_utc": "2026-09-30T05:00:03.288775Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 30.2\u202f\u00b0C, which is in the caution zone and can cause fatigue with prolonged activity. Use the nearby shade or shelter and drink water regularly."
+    },
+    {
+      "id": "20260930T050010022838Z-islamabad-street-01-0924",
+      "ts_utc": "2026-09-30T05:00:10.022838Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete. Take frequent breaks in the available shade and drink water regularly to prevent fatigue."
+    },
+    {
+      "id": "20260930T060001205179Z-islamabad-roof-01-0936",
+      "ts_utc": "2026-09-30T06:00:01.205179Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water frequently. Fatigue can set in with prolonged activity."
+    },
+    {
+      "id": "20260930T060012104070Z-islamabad-street-01-0936",
+      "ts_utc": "2026-09-30T06:00:12.104070Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are working in direct sun on hot concrete. Use the available shade and shelter to rest and drink water regularly."
+    },
+    {
+      "id": "20260930T070003382951Z-islamabad-roof-01-0948",
+      "ts_utc": "2026-09-30T07:00:03.382951Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade, drink water often, and stop work if you feel dizzy or nauseous."
+    },
+    {
+      "id": "20260930T070012514837Z-islamabad-street-01-0948",
+      "ts_utc": "2026-09-30T07:00:12.514837Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade or shelter and drink water frequently; heat cramps and exhaustion are possible in these conditions."
+    },
+    {
+      "id": "20260930T080007911804Z-islamabad-street-01-0960",
+      "ts_utc": "2026-09-30T08:00:07.911804Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Use the shade and shelter that are visible to reduce heat exposure."
+    },
+    {
+      "id": "20260930T080008551686Z-islamabad-roof-01-0960",
+      "ts_utc": "2026-09-30T08:00:08.551686Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Avoid prolonged exposure to direct sun."
+    },
+    {
+      "id": "20260930T090006190613Z-islamabad-roof-01-0972",
+      "ts_utc": "2026-09-30T09:00:06.190613Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; find shade and drink water regularly. Limit heavy work during the hottest part of the day."
+    },
+    {
+      "id": "20260930T090013416461Z-islamabad-street-01-0972",
+      "ts_utc": "2026-09-30T09:00:13.416461Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; seek shade or shelter now and drink water regularly. Take frequent breaks to avoid heat cramps or exhaustion."
+    },
+    {
+      "id": "20260930T100007155638Z-islamabad-roof-01-0984",
+      "ts_utc": "2026-09-30T10:00:07.155638Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade, stay hydrated, and rest when you can."
+    },
+    {
+      "id": "20260930T100015446279Z-islamabad-street-01-0984",
+      "ts_utc": "2026-09-30T10:00:15.446279Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Find shade or shelter and drink water if you can."
+    },
+    {
+      "id": "20260930T134003589496Z-islamabad-roof-01-0996",
+      "ts_utc": "2026-09-30T13:40:03.589496Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and rest in the shelter. If you feel fatigued, take a break and stay hydrated."
+    },
+    {
+      "id": "20260930T134014585324Z-islamabad-street-01-0996",
+      "ts_utc": "2026-09-30T13:40:14.585324Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot provide specific advice."
+    },
+    {
+      "id": "20260930T144012346534Z-islamabad-street-01-1008",
+      "ts_utc": "2026-09-30T14:40:12.346534Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T144014901819Z-islamabad-roof-01-1008",
+      "ts_utc": "2026-09-30T14:40:14.901819Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T154001567457Z-islamabad-street-01-1020",
+      "ts_utc": "2026-09-30T15:40:01.567457Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T154004170167Z-islamabad-roof-01-1020",
+      "ts_utc": "2026-09-30T15:40:04.170167Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T164006524490Z-islamabad-roof-01-1032",
+      "ts_utc": "2026-09-30T16:40:06.524490Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot provide specific advice."
+    },
+    {
+      "id": "20260930T164013251295Z-islamabad-street-01-1032",
+      "ts_utc": "2026-09-30T16:40:13.251295Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T174011027461Z-islamabad-roof-01-1044",
+      "ts_utc": "2026-09-30T17:40:11.027461Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T174012056561Z-islamabad-street-01-1044",
+      "ts_utc": "2026-09-30T17:40:12.056561Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T184003580974Z-islamabad-street-01-1056",
+      "ts_utc": "2026-09-30T18:40:03.580974Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T184004839094Z-islamabad-roof-01-1056",
+      "ts_utc": "2026-09-30T18:40:04.839094Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice. Please wait until visibility improves."
+    },
+    {
+      "id": "20260930T194012342846Z-islamabad-street-01-1068",
+      "ts_utc": "2026-09-30T19:40:12.342846Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T194013078887Z-islamabad-roof-01-1068",
+      "ts_utc": "2026-09-30T19:40:13.078887Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20260930T204009358897Z-islamabad-street-01-1080",
+      "ts_utc": "2026-09-30T20:40:09.358897Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T204013012040Z-islamabad-roof-01-1080",
+      "ts_utc": "2026-09-30T20:40:13.012040Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T214002718846Z-islamabad-street-01-1092",
+      "ts_utc": "2026-09-30T21:40:02.718846Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T214010821435Z-islamabad-roof-01-1092",
+      "ts_utc": "2026-09-30T21:40:10.821435Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T224002630880Z-islamabad-street-01-1104",
+      "ts_utc": "2026-09-30T22:40:02.630880Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T224010373327Z-islamabad-roof-01-1104",
+      "ts_utc": "2026-09-30T22:40:10.373327Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T234010726340Z-islamabad-street-01-1116",
+      "ts_utc": "2026-09-30T23:40:10.726340Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20260930T234014093451Z-islamabad-roof-01-1116",
+      "ts_utc": "2026-09-30T23:40:14.093451Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T004009336664Z-islamabad-roof-01-1128",
+      "ts_utc": "2026-10-01T00:40:09.336664Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can keep working; stay hydrated and use the shade and shelter that are available. The heat index is in the safe range, so no extra precautions are needed."
+    },
+    {
+      "id": "20261001T004010796019Z-islamabad-street-01-1128",
+      "ts_utc": "2026-10-01T00:40:10.796019Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and shelter that are visible to stay cool. If you locate water, drink frequently."
+    },
+    {
+      "id": "20261001T014007751328Z-islamabad-street-01-1140",
+      "ts_utc": "2026-10-01T01:40:07.751328Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the safe range, so you can continue working. Take advantage of the shade and shelter that are visible to stay cool."
+    },
+    {
+      "id": "20261001T014011970806Z-islamabad-roof-01-1140",
+      "ts_utc": "2026-10-01T01:40:11.970806Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat is safe for you right now. Use the shade and water you can see to stay comfortable."
+    },
+    {
+      "id": "20261001T024001271325Z-islamabad-street-01-1152",
+      "ts_utc": "2026-10-01T02:40:01.271325Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the available shade and use the shelter to rest. Keep hydrated and take regular breaks."
+    },
+    {
+      "id": "20261001T024012240454Z-islamabad-roof-01-1152",
+      "ts_utc": "2026-10-01T02:40:12.240454Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a safe heat condition. Use the available shade and water to stay cool."
+    },
+    {
+      "id": "20261001T034005278551Z-islamabad-roof-01-1164",
+      "ts_utc": "2026-10-01T03:40:05.278551Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete, but shade and water are available. Take regular breaks in the shade and stay hydrated."
+    },
+    {
+      "id": "20261001T034010336654Z-islamabad-street-01-1164",
+      "ts_utc": "2026-10-01T03:40:10.336654Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the safe range and shade with shelter are available. Use the shade and drink water when you can."
+    },
+    {
+      "id": "20261001T044002999110Z-islamabad-street-01-1176",
+      "ts_utc": "2026-10-01T04:40:02.999110Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the available shade or shelter and drink water often. Limit continuous work to reduce fatigue."
+    },
+    {
+      "id": "20261001T044014460188Z-islamabad-roof-01-1176",
+      "ts_utc": "2026-10-01T04:40:14.460188Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade you can see and drink water often. Prolonged exposure may cause fatigue."
+    },
+    {
+      "id": "20261001T054008925218Z-islamabad-roof-01-1188",
+      "ts_utc": "2026-10-01T05:40:08.925218Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often. Avoid prolonged exertion during the hottest part of the day."
+    },
+    {
+      "id": "20261001T054015170426Z-islamabad-street-01-1188",
+      "ts_utc": "2026-10-01T05:40:15.170426Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the available shade or shelter and drink water frequently. Prolonged exposure may cause fatigue, so monitor how you feel."
+    },
+    {
+      "id": "20261001T064005949317Z-islamabad-roof-01-1200",
+      "ts_utc": "2026-10-01T06:40:05.949317Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade, drink water often, and stop work if you feel dizzy or nauseous."
+    },
+    {
+      "id": "20261001T064011325002Z-islamabad-street-01-1200",
+      "ts_utc": "2026-10-01T06:40:11.325002Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the caution range, so fatigue may set in with prolonged work. Move into the shade or shelter and drink water regularly."
+    },
+    {
+      "id": "20261001T074010307084Z-islamabad-street-01-1212",
+      "ts_utc": "2026-10-01T07:40:10.307084Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and use the available shelter. Stay hydrated and limit exertion."
+    },
+    {
+      "id": "20261001T074014344837Z-islamabad-roof-01-1212",
+      "ts_utc": "2026-10-01T07:40:14.344837Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun with shade and water nearby. Take frequent breaks in the shade, stay hydrated, and limit strenuous work."
+    },
+    {
+      "id": "20261001T084001692770Z-islamabad-roof-01-1224",
+      "ts_utc": "2026-10-01T08:40:01.692770Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; seek shade, stay hydrated, and take frequent breaks. If you feel symptoms, stop work and cool down immediately."
+    },
+    {
+      "id": "20261001T084007041338Z-islamabad-street-01-1224",
+      "ts_utc": "2026-10-01T08:40:07.041338Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete; seek the available shade or shelter now. Drink water regularly to reduce heat stress."
+    },
+    {
+      "id": "20261001T094004798855Z-islamabad-street-01-1236",
+      "ts_utc": "2026-10-01T09:40:04.798855Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade or shelter. If you find water, drink it frequently."
+    },
+    {
+      "id": "20261001T094013464395Z-islamabad-roof-01-1236",
+      "ts_utc": "2026-10-01T09:40:13.464395Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade, stay hydrated, and rest in shelter when possible."
+    },
+    {
+      "id": "20261001T104007512060Z-islamabad-roof-01-1248",
+      "ts_utc": "2026-10-01T10:40:07.512060Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun with a high heat index; seek shade and drink water now. Heat cramps or exhaustion are possible."
+    },
+    {
+      "id": "20261001T104013949272Z-islamabad-street-01-1248",
+      "ts_utc": "2026-10-01T10:40:13.949272Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Use the available shade and shelter and drink water regularly."
+    },
+    {
+      "id": "20261001T114003799628Z-islamabad-roof-01-1260",
+      "ts_utc": "2026-10-01T11:40:03.799628Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water often. Limit continuous work to short intervals."
+    },
+    {
+      "id": "20261001T114008479595Z-islamabad-street-01-1260",
+      "ts_utc": "2026-10-01T11:40:08.479595Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in direct sun on hot concrete. Move into the available shade or shelter and rest."
+    },
+    {
+      "id": "20261001T124002086843Z-islamabad-roof-01-1272",
+      "ts_utc": "2026-10-01T12:40:02.086843Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions. Seek shade, stay hydrated, and limit exertion."
+    },
+    {
+      "id": "20261001T124004473639Z-islamabad-street-01-1272",
+      "ts_utc": "2026-10-01T12:40:04.473639Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice. Stay safe."
+    },
+    {
+      "id": "20261001T134005658572Z-islamabad-roof-01-1284",
+      "ts_utc": "2026-10-01T13:40:05.658572Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a spot with shade and shelter; take regular breaks there and stay hydrated. The current heat index indicates extreme caution, so limit prolonged exposure."
+    },
+    {
+      "id": "20261001T134014968158Z-islamabad-street-01-1284",
+      "ts_utc": "2026-10-01T13:40:14.968158Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T144004576183Z-islamabad-street-01-1296",
+      "ts_utc": "2026-10-01T14:40:04.576183Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T144006025248Z-islamabad-roof-01-1296",
+      "ts_utc": "2026-10-01T14:40:06.025248Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T154003210852Z-islamabad-roof-01-1308",
+      "ts_utc": "2026-10-01T15:40:03.210852Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261001T154012988997Z-islamabad-street-01-1308",
+      "ts_utc": "2026-10-01T15:40:12.988997Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T164006860996Z-islamabad-roof-01-1320",
+      "ts_utc": "2026-10-01T16:40:06.860996Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T164015736103Z-islamabad-street-01-1320",
+      "ts_utc": "2026-10-01T16:40:15.736103Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T174004954494Z-islamabad-roof-01-1332",
+      "ts_utc": "2026-10-01T17:40:04.954494Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T174009747074Z-islamabad-street-01-1332",
+      "ts_utc": "2026-10-01T17:40:09.747074Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T184002091499Z-islamabad-street-01-1344",
+      "ts_utc": "2026-10-01T18:40:02.091499Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T184008294218Z-islamabad-roof-01-1344",
+      "ts_utc": "2026-10-01T18:40:08.294218Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T194011137412Z-islamabad-street-01-1356",
+      "ts_utc": "2026-10-01T19:40:11.137412Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261001T194015785645Z-islamabad-roof-01-1356",
+      "ts_utc": "2026-10-01T19:40:15.785645Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T204002431694Z-islamabad-street-01-1368",
+      "ts_utc": "2026-10-01T20:40:02.431694Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T204005004256Z-islamabad-roof-01-1368",
+      "ts_utc": "2026-10-01T20:40:05.004256Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T214015142125Z-islamabad-street-01-1380",
+      "ts_utc": "2026-10-01T21:40:15.142125Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T214015204945Z-islamabad-roof-01-1380",
+      "ts_utc": "2026-10-01T21:40:15.204945Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261001T224012151342Z-islamabad-roof-01-1392",
+      "ts_utc": "2026-10-01T22:40:12.151342Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T224015342581Z-islamabad-street-01-1392",
+      "ts_utc": "2026-10-01T22:40:15.342581Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T234002013646Z-islamabad-roof-01-1404",
+      "ts_utc": "2026-10-01T23:40:02.013646Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261001T234006738064Z-islamabad-street-01-1404",
+      "ts_utc": "2026-10-01T23:40:06.738064Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T004008864974Z-islamabad-roof-01-1416",
+      "ts_utc": "2026-10-02T00:40:08.864974Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can rest in the available shade and drink water to stay comfortable. The heat index shows conditions are safe."
+    },
+    {
+      "id": "20261002T004015009985Z-islamabad-street-01-1416",
+      "ts_utc": "2026-10-02T00:40:15.009985Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can stay in the shade and shelter that are visible and take regular breaks. If you locate water, drink it to stay hydrated."
+    },
+    {
+      "id": "20261002T014008764123Z-islamabad-street-01-1428",
+      "ts_utc": "2026-10-02T01:40:08.764123Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the available shade and shelter; no special precautions are needed."
+    },
+    {
+      "id": "20261002T014011322519Z-islamabad-roof-01-1428",
+      "ts_utc": "2026-10-02T01:40:11.322519Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 24.1\u202f\u00b0C, which is in the safe range. Use the available shade and water, and take regular breaks to stay cool."
+    },
+    {
+      "id": "20261002T024001637077Z-islamabad-roof-01-1440",
+      "ts_utc": "2026-10-02T02:40:01.637077Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Drink water regularly and use the shade or shelter when you can. The heat index is low, so the risk is minimal."
+    },
+    {
+      "id": "20261002T024009236551Z-islamabad-street-01-1440",
+      "ts_utc": "2026-10-02T02:40:09.236551Z",
+      "ok": true,
+      "band": "safe",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You can keep working; use the shade and shelter that are visible to stay cool and drink water if you have it. Take regular breaks in the shade."
+    },
+    {
+      "id": "20261002T034001679085Z-islamabad-roof-01-1452",
+      "ts_utc": "2026-10-02T03:40:01.679085Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Work in the shade when possible and drink water often; avoid prolonged exertion in direct sun. Take regular breaks to keep your core temperature down."
+    },
+    {
+      "id": "20261002T034005612579Z-islamabad-street-01-1452",
+      "ts_utc": "2026-10-02T03:40:05.612579Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade. Drink water frequently and limit prolonged exertion."
+    },
+    {
+      "id": "20261002T044006875011Z-islamabad-street-01-1464",
+      "ts_utc": "2026-10-02T04:40:06.875011Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is 29.3\u202f\u00b0C, which can cause fatigue on prolonged exposure. Use the available shade and shelter, and drink water regularly."
+    },
+    {
+      "id": "20261002T044009078239Z-islamabad-roof-01-1464",
+      "ts_utc": "2026-10-02T04:40:09.078239Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a caution zone; prolonged exposure may cause fatigue. Use the nearby shade and water, and take regular breaks."
+    },
+    {
+      "id": "20261002T054006499775Z-islamabad-roof-01-1476",
+      "ts_utc": "2026-10-02T05:40:06.499775Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a caution zone; fatigue may set in with prolonged work. Use the available shade and water, and take regular breaks."
+    },
+    {
+      "id": "20261002T054013451935Z-islamabad-street-01-1476",
+      "ts_utc": "2026-10-02T05:40:13.451935Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Avoid prolonged activity in direct sun."
+    },
+    {
+      "id": "20261002T064004006778Z-islamabad-street-01-1488",
+      "ts_utc": "2026-10-02T06:40:04.006778Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The sun is shining directly on concrete, and shade or shelter is available nearby, use it to rest and reduce continuous exposure. Stay hydrated and take regular breaks to prevent fatigue."
+    },
+    {
+      "id": "20261002T064004200542Z-islamabad-roof-01-1488",
+      "ts_utc": "2026-10-02T06:40:04.200542Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take frequent breaks in the shade and drink water regularly. Watch for signs of heat cramps or exhaustion."
+    },
+    {
+      "id": "20261002T074003479643Z-islamabad-roof-01-1500",
+      "ts_utc": "2026-10-02T07:40:03.479643Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in extreme caution conditions; find shade and drink water regularly."
+    },
+    {
+      "id": "20261002T074005166874Z-islamabad-street-01-1500",
+      "ts_utc": "2026-10-02T07:40:05.166874Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in a caution zone. Use the shade and shelter that are visible, and find water to stay hydrated."
+    },
+    {
+      "id": "20261002T084015410896Z-islamabad-roof-01-1512",
+      "ts_utc": "2026-10-02T08:40:15.410896Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Stay in the shade or shelter, drink water regularly, and take frequent breaks. If you develop heat cramps or exhaustion, stop work immediately and seek medical help."
+    },
+    {
+      "id": "20261002T084015917935Z-islamabad-street-01-1512",
+      "ts_utc": "2026-10-02T08:40:15.917935Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "The heat index is in the extreme-caution band, so watch for heat cramps and exhaustion. Use the available shade or shelter now and keep hydrated."
+    },
+    {
+      "id": "20261002T094005220195Z-islamabad-street-01-1524",
+      "ts_utc": "2026-10-02T09:40:05.220195Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and use the available shelter to rest. Bring water if you can, and limit exertion during the hottest part of the day."
+    },
+    {
+      "id": "20261002T094012437796Z-islamabad-roof-01-1524",
+      "ts_utc": "2026-10-02T09:40:12.437796Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "You are in an extreme-caution situation. Seek shade or shelter and drink water regularly to avoid heat cramps or exhaustion."
+    },
+    {
+      "id": "20261002T104007433820Z-islamabad-street-01-1536",
+      "ts_utc": "2026-10-02T10:40:07.433820Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Use the shade and shelter that are available to reduce exposure. Drink water often and take regular breaks."
+    },
+    {
+      "id": "20261002T104014964280Z-islamabad-roof-01-1536",
+      "ts_utc": "2026-10-02T10:40:14.964280Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and rest frequently. Keep drinking water and use the shelter when you can."
+    },
+    {
+      "id": "20261002T114012732533Z-islamabad-street-01-1548",
+      "ts_utc": "2026-10-02T11:40:12.732533Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and drink water often. Heat cramps and exhaustion are possible."
+    },
+    {
+      "id": "20261002T114015338524Z-islamabad-roof-01-1548",
+      "ts_utc": "2026-10-02T11:40:15.338524Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Seek shade or shelter immediately, stay hydrated, and limit exertion. The current heat index indicates extreme caution, so take extra precautions."
+    },
+    {
+      "id": "20261002T124002689368Z-islamabad-street-01-1560",
+      "ts_utc": "2026-10-02T12:40:02.689368Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T124013377311Z-islamabad-roof-01-1560",
+      "ts_utc": "2026-10-02T12:40:13.377311Z",
+      "ok": true,
+      "band": "extreme caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Find shade and rest in the shelter. If you feel any heat-related symptoms, stop work and get water or medical help."
+    },
+    {
+      "id": "20261002T134001882924Z-islamabad-roof-01-1572",
+      "ts_utc": "2026-10-02T13:40:01.882924Z",
+      "ok": true,
+      "band": "caution",
+      "advised": true,
+      "can_see": true,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Take regular breaks in the shade and stay hydrated. Avoid prolonged exertion."
+    },
+    {
+      "id": "20261002T134009404853Z-islamabad-street-01-1572",
+      "ts_utc": "2026-10-02T13:40:09.404853Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261002T144004415872Z-islamabad-roof-01-1584",
+      "ts_utc": "2026-10-02T14:40:04.415872Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T144008895526Z-islamabad-street-01-1584",
+      "ts_utc": "2026-10-02T14:40:08.895526Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T154012873469Z-islamabad-street-01-1596",
+      "ts_utc": "2026-10-02T15:40:12.873469Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261002T154014770865Z-islamabad-roof-01-1596",
+      "ts_utc": "2026-10-02T15:40:14.770865Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice. Please wait until visibility improves."
+    },
+    {
+      "id": "20261002T164008599458Z-islamabad-street-01-1608",
+      "ts_utc": "2026-10-02T16:40:08.599458Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "Worker, I cannot see your location due to darkness, so I cannot give specific advice."
+    },
+    {
+      "id": "20261002T164015148579Z-islamabad-roof-01-1608",
+      "ts_utc": "2026-10-02T16:40:15.148579Z",
+      "ok": true,
+      "band": "caution",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T174003682907Z-islamabad-roof-01-1620",
+      "ts_utc": "2026-10-02T17:40:03.682907Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261002T174010974932Z-islamabad-street-01-1620",
+      "ts_utc": "2026-10-02T17:40:10.974932Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T184012354920Z-islamabad-street-01-1632",
+      "ts_utc": "2026-10-02T18:40:12.354920Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T184014919129Z-islamabad-roof-01-1632",
+      "ts_utc": "2026-10-02T18:40:14.919129Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice. Please wait until visibility improves."
+    },
+    {
+      "id": "20261002T194004879547Z-islamabad-street-01-1644",
+      "ts_utc": "2026-10-02T19:40:04.879547Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T194006016839Z-islamabad-roof-01-1644",
+      "ts_utc": "2026-10-02T19:40:06.016839Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T204008587779Z-islamabad-street-01-1656",
+      "ts_utc": "2026-10-02T20:40:08.587779Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T204014246110Z-islamabad-roof-01-1656",
+      "ts_utc": "2026-10-02T20:40:14.246110Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T214004203470Z-islamabad-roof-01-1668",
+      "ts_utc": "2026-10-02T21:40:04.203470Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T214010149904Z-islamabad-street-01-1668",
+      "ts_utc": "2026-10-02T21:40:10.149904Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": true,
+      "decided_by": "nvidia/nemotron-3-super-120b-a12b",
+      "message": "I cannot see the location, so I cannot give specific advice."
+    },
+    {
+      "id": "20261002T224002295176Z-islamabad-roof-01-1680",
+      "ts_utc": "2026-10-02T22:40:02.295176Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T224008257798Z-islamabad-street-01-1680",
+      "ts_utc": "2026-10-02T22:40:08.257798Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T234008108696Z-islamabad-roof-01-1692",
+      "ts_utc": "2026-10-02T23:40:08.108696Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    },
+    {
+      "id": "20261002T234012974081Z-islamabad-street-01-1692",
+      "ts_utc": "2026-10-02T23:40:12.974081Z",
+      "ok": true,
+      "band": "safe",
+      "advised": false,
+      "can_see": false,
+      "escalated": false,
+      "decided_by": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "message": "I cannot see your location, so I cannot give advice."
+    }
+  ]
+}
